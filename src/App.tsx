@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Nav from './Components/Navigation/Nav'
+import Home from './Components/Home'
 //write import for all the css files in the assets/css folder
 import './assets/css/animate.min.css'
 import './assets/css/bootstrap.min.css'
@@ -22,6 +23,8 @@ import './assets/css/normalize.css'
 import './assets/css/jquery-ui.css'
 import './assets/css/default-skin.css'
 import './assets/css/jquery.mCustomScrollbar.min.css'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
+
 
 
 
@@ -29,6 +32,11 @@ function App() {
   return (
     <>
       <Nav/>
+      <BrowserRouter>
+        <Routes> 
+                 <Route path="/" element={<Home/>}/>
+                 </Routes>
+      </BrowserRouter>
     </>
   )
 }
