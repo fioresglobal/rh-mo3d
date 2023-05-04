@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Nav from './Components/Navigation/Nav'
-import Home from './Components/Home'
+import Home from './Components/Home/Home'
 //write import for all the css files in the assets/css folder
 import './assets/css/animate.min.css'
 import './assets/css/bootstrap.min.css'
