@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import comp from "../../assets/images/comp.jpg"
 const Slider = ()=> {  
         return (
-            <Carousel>
+            <Carousel emulateTouch={true} showThumbs={false}>
                 <div>
                     <img className='slider-image' src={comp} />
                     

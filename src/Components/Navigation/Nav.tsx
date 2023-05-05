@@ -31,7 +31,8 @@ const Nav = () => {
               <div className="contact_main">
                 <div className="contact_left">
                   <div className="call_text"><a href="#">
-                    <img src={mail}/><span className="call_text_left">business@fioresglobal.com</span></a></div>
+                    <img src={mail}/>
+                    <span className="call_text_left">business@fioresglobal.com</span></a></div>
                 </div>
                 <div className="contact_right">
                   <div className="call_text"><a href="#">
