@@ -3,11 +3,12 @@ import About from './About'
 import Services from './Services'
 import Contactus from './Contactus'
 import Footer from './Footer'
-import Slider from './Carousel'
+import Slider from './Hero'
+import Hero from './Hero'
 const Home = () => {
   return (
     <>
-    <Slider/>
+    <Hero/>
    
     <About/>
     <Services/>

@@ -1,7 +1,7 @@
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import comp from "../../assets/images/comp.jpg"
-const Slider = ()=> {  
+const Hero = ()=> {  
         return (
             <Carousel emulateTouch={true} showThumbs={false} axis="vertical" >
                 <div>
@@ -20,4 +20,4 @@ const Slider = ()=> {
             </Carousel>
         );
     }
-export default Slider;
+export default Hero;
