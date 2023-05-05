@@ -1,5 +1,8 @@
 import React from 'react'
 import logo_rhmo3d from "../../assets/images/rhmo3d-logo.svg"
+import mail from "../../assets/images/mail-icon.png";
+import call from "../../assets/images/call-icon.png";
+import map from "../../assets/images/map-icon.png"
 
 const Nav = () => {
   return (
@@ -11,7 +14,7 @@ const Nav = () => {
               <div className="contact_main">
                 <div className="contact_left">
                   <div className="call_text"><a href="#">
-                    <img src="images/call-icon.png"/>
+                    <img src={call}/>
                     <span className="call_text_left">+01 1234567890</span></a></div>
                 </div>
                 <div className="contact_right">
@@ -28,11 +31,11 @@ const Nav = () => {
               <div className="contact_main">
                 <div className="contact_left">
                   <div className="call_text"><a href="#">
-                    <img src="images/mail-icon.png"/><span className="call_text_left">business@fioresglobal.com</span></a></div>
+                    <img src={mail}/><span className="call_text_left">business@fioresglobal.com</span></a></div>
                 </div>
                 <div className="contact_right">
                   <div className="call_text"><a href="#">
-                    <img src="images/map-icon.png"/><span className="call_text_left">+01 9876543210</span></a></div>
+                    <img src={map}/><span className="call_text_left">+01 9876543210</span></a></div>
                 </div>
               </div>
             </div>
