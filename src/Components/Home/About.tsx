@@ -1,4 +1,5 @@
 import React from 'react'
+import ai from "../../assets/images/ai.jpg"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
               <div className="read_more_bt"><a href="#">READ MORE</a></div>
             </div>
             <div className="col-md-6">
-              <div className="image_2"><img src="images/img-2.png"/></div>
+              <div className="image_2"><img src={ai}/></div>
             </div>
           </div>
         </div>

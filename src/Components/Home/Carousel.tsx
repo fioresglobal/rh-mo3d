@@ -6,15 +6,16 @@ const Slider = ()=> {
             <Carousel emulateTouch={true} showThumbs={false} axis="vertical" >
                 <div>
                     <img className='slider-image' src={comp} />
+                    <p className="legend">Rhmo3d</p>
                     
                 </div>
                 <div>
                     <img src={comp} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">Face simulation</p>
                 </div>
                 <div>
                     <img src={comp} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">Rhmo3d</p>
                 </div>
             </Carousel>
         );
