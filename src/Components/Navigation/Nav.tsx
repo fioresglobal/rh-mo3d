@@ -1,4 +1,5 @@
 import React from 'react'
+import logo_rhmo3d from "../../assets/images/rhmo3d-logo.svg"
 
 const Nav = () => {
   return (
@@ -19,13 +20,15 @@ const Nav = () => {
               </div>
             </div>
             <div className="col-sm-2">
-              <div className="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+              <div className="logo">
+                <a href="index.html">
+                  <img className='logo-rcmo3d' src={logo_rhmo3d}/></a></div>
             </div>
             <div className="col-sm-5">
               <div className="contact_main">
                 <div className="contact_left">
                   <div className="call_text"><a href="#">
-                    <img src="images/mail-icon.png"/><span className="call_text_left">Demo@gmail.com</span></a></div>
+                    <img src="images/mail-icon.png"/><span className="call_text_left">business@fioresglobal.com</span></a></div>
                 </div>
                 <div className="contact_right">
                   <div className="call_text"><a href="#">
