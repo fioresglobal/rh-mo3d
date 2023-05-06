@@ -1,4 +1,3 @@
-import React from 'react'
 import ai from "../../../public/images/ai.jpg"
 
 const About = () => {
