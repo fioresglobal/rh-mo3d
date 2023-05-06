@@ -9,6 +9,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "homepage": "https://fioresglobal.github.io/rh-mo3d",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
