@@ -6,16 +6,16 @@ const Hero = ()=> {
             <div>
             <Carousel  dynamicHeight={false}  emulateTouch={true} showThumbs={false} axis="vertical" >
                 <div>
-                    <img className='slider-image' src={comp} />
+                    <img alt='slider' className='slider-image' src={comp} />
                     <p className="legend">Rhmo3d</p>
                     
                 </div>
                 <div>
-                    <img src={comp} />
+                    <img alt='slider' src={comp} />
                     <p className="legend">Face simulation</p>
                 </div>
                 <div>
-                    <img src={comp} />
+                    <img alt='comp' src={comp} />
                     <p className="legend">Rhmo3d</p>
                 </div>
             </Carousel>
