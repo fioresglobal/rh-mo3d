@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Services = () => {
   return (
     <div>
@@ -10,7 +8,7 @@ const Services = () => {
           <div className="service_section_2">
             <div className="row">
               <div className="col-sm-4">
-                <div className="image_3"><img src="images/img-3.png"/></div>
+                <div className="image_3"><img alt="image" src="images/img-3.png"/></div>
                 <h1 className="classNameic_text">classNameIC HAIR CUT</h1>
                 <p className="consectetur_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                 <div className="read_bt_main">
@@ -26,7 +24,7 @@ const Services = () => {
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="image_3"><img src="images/img-5.png"/></div>
+                <div className="image_3"><img alt="img" src="images/img-5.png"/></div>
                 <h1 className="classNameic_text">classNameIC HAIR CUT</h1>
                 <p className="consectetur_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                 <div className="read_bt_main">
