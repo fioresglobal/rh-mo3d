@@ -1,5 +1,5 @@
 import React from 'react'
-import ai from "../../assets/images/ai.jpg"
+import ai from "../../../public/images/ai.jpg"
 
 const About = () => {
   return (
