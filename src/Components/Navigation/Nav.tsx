@@ -2,6 +2,7 @@ import logo_rhmo3d from "../../../public/images/rhmo3d-logo.svg"
 import mail from "../../../public/images/mail-icon.png";
 import call from "../../../public/images/call-icon.png";
 import map from "../../../public/images/map-icon.png"
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -29,8 +30,8 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link" href="index.html">HOME</a>
-            <a className="nav-item nav-link" href="#">TEAM</a>
+            <NavLink className="nav-item nav-link active" to="/">HOME <span className="sr-only">(current)</span></NavLink>
+            <NavLink className="nav-item nav-link" to="/team">TEAM</NavLink>
             <a className="nav-item nav-link" href="services.html">SERVICES</a>
             <a className="nav-item nav-link" href="about.html">ABOUT</a>
             <a className="nav-item nav-link" href="pricing.html">PRICING</a>

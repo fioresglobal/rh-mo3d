@@ -16,7 +16,7 @@ const Services = () => {
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="image_3"><img src="images/img-4.png"/></div>
+                <div className="image_3"><img alt="img" src="images/img-4.png"/></div>
                 <h1 className="classNameic_text">classNameIC HAIR CUT</h1>
                 <p className="consectetur_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                 <div className="read_bt_main">
