@@ -32,7 +32,7 @@ const Nav = () => {
           <div className="navbar-nav">
             <NavLink className="nav-item nav-link active" to="/">HOME <span className="sr-only">(current)</span></NavLink>
             <NavLink className="nav-item nav-link" to="/team">TEAM</NavLink>
-            <a className="nav-item nav-link" href="services.html">SERVICES</a>
+            <NavLink className="nav-item nav-link" to="/services">SERVICES</NavLink>
             <a className="nav-item nav-link" href="about.html">ABOUT</a>
             <a className="nav-item nav-link" href="pricing.html">PRICING</a>
             <a className="nav-item nav-link" href="contact.html">CONTACT US</a>
