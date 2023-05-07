@@ -224,10 +224,12 @@ button {
 }
 
 .header_top{
+     display: flex;
+     align-items: center;
      width: 100%;
      float: left;
      background-color: #1c1c1c;
-     height: auto;
+     height: 90px;
 }
 
 .logo{
@@ -252,7 +254,7 @@ button {
 }
 
 .call_text{
-     width: 100%;
+     
      float: left;
      font-size: 15px;
      color: #b7990f;
