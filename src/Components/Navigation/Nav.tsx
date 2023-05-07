@@ -30,6 +30,7 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-item nav-link" href="index.html">HOME</a>
+            <a className="nav-item nav-link" href="#">TEAM</a>
             <a className="nav-item nav-link" href="services.html">SERVICES</a>
             <a className="nav-item nav-link" href="about.html">ABOUT</a>
             <a className="nav-item nav-link" href="pricing.html">PRICING</a>
