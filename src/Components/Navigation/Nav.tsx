@@ -49,7 +49,7 @@ const Nav = () => {
             <NavLink className="nav-item nav-link" to="/team">TEAM</NavLink>
             <NavLink className="nav-item nav-link" to="/services">SERVICES</NavLink>
             <NavLink className="nav-item nav-link" to="/about">ABOUT</NavLink>
-            <a className="nav-item nav-link" href="pricing.html">PRICING</a>
+            <NavLink className="nav-item nav-link" to="/pricing">PRICING</NavLink>
             <NavLink className="nav-item nav-link" to="/contact">CONTACT US</NavLink>
           </div>
         </div>

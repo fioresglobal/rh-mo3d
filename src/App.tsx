@@ -6,6 +6,7 @@ import Services from './Components/Home/Services'
 import About from './Components/Home/About'
 import Contactus from './Components/Home/Contactus'
 import Footer from './Components/Home/Footer'
+import Pricing from './Components/Pricing/Pricing'
 //write import for all the css files in the assets/css folder
 import './assets/css/animate.min.css'
 import './assets/css/bootstrap.min.css'
@@ -44,7 +45,7 @@ function App() {
                   <Route path="/services" element={<Services/>}/>
                   <Route path="/about" element={<About/>}/>
                   <Route path="/contact" element={<Contactus/>}/>
-                  
+                  <Route path="/pricing" element={<Pricing/>}/>
                  </Routes>
                  <Footer/>
       </BrowserRouter>

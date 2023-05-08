@@ -2,6 +2,7 @@ import About from './About'
 import Services from './Services'
 import Contactus from './Contactus'
 import Hero from './Hero'
+import Pricing from '../Pricing/Pricing'
 const Home = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Home = () => {
     <About/>
     <Services/>
     <Contactus/>
-   
+    <Pricing/>
     </>
   )
 }
