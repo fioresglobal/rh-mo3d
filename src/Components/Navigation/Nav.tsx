@@ -17,7 +17,7 @@ const Nav = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [window.pageYOffset]);
+  }, []);
   return (
     <div>
         <div className="header_top">
