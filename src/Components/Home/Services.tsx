@@ -1,8 +1,11 @@
+import Light from "../../../public/images/light1.jpg"
 const Services = () => {
   return (
-    <div>
-        <div className="service_section layout_padding">
-        <div className="container">
+    <div className="position-relative">
+         {/* <div className="position-absolute cover"></div> */}
+        <div style={{
+        backgroundImage: `url(${Light})`}}   className="service_section layout_padding dark">
+        <div className="container position-relative container-wrap ">
           <h1 className="services_text">Our Services</h1>
           <p className="dolor_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
           <div className="service_section_2">

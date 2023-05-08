@@ -13,9 +13,15 @@
   },
   "homepage": "https://fioresglobal.github.io/rh-mo3d",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.11.1",
     "react-slick": "^0.29.0"

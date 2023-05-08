@@ -8,7 +8,6 @@ const Hero = ()=> {
                 <div>
                     <img alt='slider' className='slider-image' src={comp} />
                     <p className="legend">Rhmo3d</p>
-                    
                 </div>
                 <div>
                     <img alt='slider' src={comp} />

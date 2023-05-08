@@ -2,9 +2,24 @@ import logo_rhmo3d from "../../../public/images/rhmo3d-logo.svg"
 import mail from "../../../public/images/mail-icon.png";
 import call from "../../../public/images/call-icon.png";
 import map from "../../../public/images/map-icon.png"
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 0) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [window.pageYOffset]);
   return (
     <div>
         <div className="header_top">
@@ -19,12 +34,12 @@ const Nav = () => {
                 
                   <div className="call_text"><a href="#">
                     <img alt="mail" src={mail}/>
-                    <span className="call_text_left">business@fioresglobal.com</span></a></div>
+                    <span    className="call_text_left"><a  href="mailto: business@fioresglobal.com">business@fioresglobal.com</a></span></a></div>
           
           </div>
         </div>
     </div>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100 navstyle" id={scroll ? "scroll": "none"}>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -33,9 +48,9 @@ const Nav = () => {
             <NavLink className="nav-item nav-link active" to="/">HOME <span className="sr-only">(current)</span></NavLink>
             <NavLink className="nav-item nav-link" to="/team">TEAM</NavLink>
             <NavLink className="nav-item nav-link" to="/services">SERVICES</NavLink>
-            <a className="nav-item nav-link" href="about.html">ABOUT</a>
+            <NavLink className="nav-item nav-link" to="/about">ABOUT</NavLink>
             <a className="nav-item nav-link" href="pricing.html">PRICING</a>
-            <a className="nav-item nav-link" href="contact.html">CONTACT US</a>
+            <NavLink className="nav-item nav-link" to="/contact">CONTACT US</NavLink>
           </div>
         </div>
       </nav>
