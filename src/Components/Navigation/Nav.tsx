@@ -1,7 +1,5 @@
 import logo_rhmo3d from "../../../public/images/rhmo3d-logo.svg"
 import mail from "../../../public/images/mail-icon.png";
-import call from "../../../public/images/call-icon.png";
-import map from "../../../public/images/map-icon.png"
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
