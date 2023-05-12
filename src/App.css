@@ -38,3 +38,9 @@
 .slider-mar{
   margin-top: 65px;
 }
+.model-text {
+  background-color: #DAB509;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
