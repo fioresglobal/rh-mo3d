@@ -1,4 +1,3 @@
-import ai from "../../../public/images/ai.jpg"
 import ObjModel from "./Model"
 const About = () => {
   return (
