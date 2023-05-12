@@ -5,6 +5,7 @@ const Model = () => {
   return (
     <div className="d-flex flex-column align-items-center mx-5 ">
       <h1 className="model_taital">Models</h1>
+      
       <div className="d-flex gap-3">
         <div className="d-flex flex-column align-items-center shadow-lg model-wrap">
         <img alt='model' src={model1}/>

@@ -725,7 +725,7 @@ justify-content: center;
     top: 55px;
 }
 
-.model_taital{
+.model_taital {
      width: 100%;
      float: left;
      color: #0b0b0b;
@@ -736,14 +736,14 @@ justify-content: center;
 }
 
 .model_taital::after {
-    content: '';
-    border: 10px solid #c2a20e;
-    border-radius: 12px;
-    position: absolute;
-    width: 120px;
-    text-align: center;
-    right: 45%;
-    top: 55px;
+     content: '';
+     border: 10px solid #c2a20e;
+     border-radius: 12px;
+     position: absolute;
+     width: 120px;
+     text-align: center;
+     right: 45%;
+     top: 55px;
 }
 
 .contact_section_2{
