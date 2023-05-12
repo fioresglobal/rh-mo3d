@@ -44,3 +44,19 @@
   padding: 10px;
   border-radius: 15px;
 }
+
+.navstyle {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* .navbar {
+  transition: all 0.3s ease;
+  transform: translateY(20px);
+}
+
+.scroll .navbar {
+  transform: translateY(0);
+} */
+
+

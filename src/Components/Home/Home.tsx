@@ -1,6 +1,5 @@
 import About from './About'
 import Services from './Services'
-import Contactus from './Contactus'
 import Hero from './Hero'
 import Pricing from '../Pricing/Pricing'
 const Home = () => {
@@ -9,7 +8,6 @@ const Home = () => {
     <Hero/>
     <About/>
     <Services/>
-    <Contactus/>
     <Pricing/>
     </>
   )
