@@ -2,10 +2,9 @@ import './App.css'
 import Navbarh from './Components/Navigation/Nav'
 import Home from './Components/Home/Home'
 import Team from './Components/Team/Team'
-import Services from './Components/Home/Services'
 import About from './Components/Home/About'
 import Footer from './Components/Home/Footer'
-import Pricing from './Components/Pricing/Pricing'
+import ModelViewer from './Components/Home/Model'
 import './assets/css/animate.min.css'
 import './assets/css/bootstrap.min.css'
 import './assets/css/bootstrap-grid.css'
@@ -40,9 +39,8 @@ function App() {
         <Routes> 
                  <Route path="/" element={<Home/>}/>
                   <Route path="/team" element={<Team/>}/>
-                  <Route path="/services" element={<Services/>}/>
                   <Route path="/about" element={<About/>}/>
-                  <Route path="/pricing" element={<Pricing/>}/>
+                  <Route path="/model" element={<ModelViewer/>}/>
                  </Routes>
                  <Footer/>
       </BrowserRouter>

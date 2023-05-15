@@ -1,24 +1,16 @@
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import comp from "../../../public/images/comp.jpg"
-import slider1 from "../../../public/images/Desktop2.svg"
+import slider1 from "../../../public/images/slider-new.svg"
 const Hero = ()=> {  
         return (
-            <div>
-            <Carousel   dynamicHeight={false}  emulateTouch={true} showThumbs={false} axis="vertical" >
-                <div className='slider-mar'>
-                    <img alt='slider' className='slider-image' src={slider1} />
-                    <p className="legend">Rhmo3d</p>
+            <div className="hero-bg">
+                <br/>
+            <div className="d-flex flex-column flex-md-row align-items-center hero-wraper justify-content-md-center">
+                <div className="d-flex flex-column align-items-center align-items-md-start hero-desc-wraper">
+                <h1 className="hero-title">RHIMO3D</h1>
+                <p className="hero-description">RHIMO3D is dedicated to introducing advancements in healthcare through laser scanning and 3D modeling. Our focus is on developing innovative imaging systems and providing affordable services, along with software support to hospitals and clinics. Our team includes a group of skilled full stack developers.</p>
                 </div>
-                <div>
-                    <img alt='slider' src={comp} />
-                    <p className="legend">Face simulation</p>
-                </div>
-                <div>
-                    <img alt='comp' src={comp} />
-                    <p className="legend">Rhmo3d</p>
-                </div>
-            </Carousel>
+                <img className="hero-img mt-3 mt-md-0 ml-md-5" src={slider1} alt="rhimo3d"/>
+            </div>
             </div>
         );
     }

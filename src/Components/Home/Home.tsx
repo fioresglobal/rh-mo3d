@@ -7,8 +7,6 @@ const Home = () => {
     <>
     <Hero/>
     <About/>
-    <Services/>
-    <Pricing/>
     </>
   )
 }

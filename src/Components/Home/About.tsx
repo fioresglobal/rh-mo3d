@@ -1,9 +1,9 @@
-import ObjModel from "./Model"
+import ModelViewer from "./Model"
 const About = () => {
   return (
     <div className="mb-4">
-      <div className="model mt-5">
-      <ObjModel />
+      <div className="model ">
+      <ModelViewer />
       </div>
     </div>
   )

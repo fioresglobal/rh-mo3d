@@ -1,9 +1,10 @@
-import logo_rhmo3d from "../../../public/images/rhmo3d-logo.svg"
+import logo_rhmo3d from "../../../public/images/Asset 14.svg"
 import mail from "../../../public/images/mail-icon.png";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+
 
 const Navbarh = () => {
   const [scroll, setScroll] = useState(false);
@@ -20,7 +21,6 @@ const Navbarh = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log("SCROLL", scroll)
   return (
     <div>
       <div className="header_top">
@@ -28,9 +28,10 @@ const Navbarh = () => {
           <div className="d-flex justify-content-between items-center align-items-center ">
             
             <div>
-              <div className="logo">
+              <div className="logo d-flex align-items-center ">
                 <a href="index.html">
-                  <img alt="logo" className='logo-rcmo3d' src={logo_rhmo3d}/></a></div>
+                  <img alt="logo" className='logo-rcmo3d' src={logo_rhmo3d}/></a>
+                  </div>
             </div>
                 
             <div className="call_text">
@@ -51,9 +52,7 @@ const Navbarh = () => {
           <Nav className="mr-auto">
             <NavLink className="nav-item nav-link active" to="/">HOME <span className="sr-only">(current)</span></NavLink>
             <NavLink className="nav-item nav-link" to="/team">TEAM</NavLink>
-            <NavLink className="nav-item nav-link" to="/services">SERVICES</NavLink>
             <NavLink className="nav-item nav-link" to="/about">ABOUT</NavLink>
-            <NavLink className="nav-item nav-link" to="/pricing">PRICING</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
