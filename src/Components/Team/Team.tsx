@@ -1,4 +1,3 @@
-import demouser from "../../../public/images/avatar.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import baran from "../../../public/images/BARAN ÇİÇEK.jpeg"

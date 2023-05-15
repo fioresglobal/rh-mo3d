@@ -1,4 +1,3 @@
-import comp from "../../../public/images/comp.jpg"
 import slider1 from "../../../public/images/slider-new.svg"
 const Hero = ()=> {  
         return (
