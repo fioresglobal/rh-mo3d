@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="container">
           <div className="social_icon">
             <ul className="d-flex footer-wraper">
-              <li className="footer-links"><a  href="https://www.linkedin.com/company/fioresglobal/mycompany/?viewAsMember=true" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
-              <li className="footer-links"><a href="https://instagram.com/fioresglobal?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><FontAwesomeIcon icon={faInstagram} /> </a></li>
-              <li className="footer-links"><a href="https://fioresglobal.com/" target="_blank"><FontAwesomeIcon icon={faGlobe} /></a></li>
+              <li className="footer-links"><a rel="noopener" title="linkedin"  href="https://www.linkedin.com/company/fioresglobal/mycompany/?viewAsMember=true" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
+              <li className="footer-links"><a rel="noopener" title="instagram" href="https://instagram.com/fioresglobal?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><FontAwesomeIcon icon={faInstagram} /> </a></li>
+              <li className="footer-links"><a rel="noopener" title="web" href="https://fioresglobal.com/" target="_blank"><FontAwesomeIcon icon={faGlobe} /></a></li>
             </ul>
           </div>
           <p className="lorem_ipsum_text">RHIMO3D is dedicated to introducing advancements in healthcare through laser scanning and 3D modeling. Our focus is on developing innovative imaging systems and providing affordable services, along with software support to hospitals and clinics. Our team includes a group of skilled full stack developers.</p>
