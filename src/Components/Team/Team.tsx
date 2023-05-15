@@ -28,6 +28,8 @@ const Team = () => {
     return (
         <div>
             <h1 className='text-center contact_taital team-wraper mb-5' id="team">Our Team</h1>
+            <p className="text-center model-desc">Rhimo 3D works to bring innovations to the health sector in the field of laser scanning and 3D modeling, to develop different imaging systems, and most importantly to offer all these services at a much more affordable price than existing technologies and to provide software support to hospitals. and clinics. The team consists of full stack developers.</p>
+
             <div className="container">
                 <div className="row team-row">
                     {team.map((item, index) => (

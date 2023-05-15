@@ -52,7 +52,6 @@ const Navbarh = () => {
           <Nav className="mr-auto">
             <NavLink className="nav-item nav-link active" to="/">HOME <span className="sr-only">(current)</span></NavLink>
             <NavLink className="nav-item nav-link" to="/team">TEAM</NavLink>
-            <NavLink className="nav-item nav-link" to="/about">ABOUT</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

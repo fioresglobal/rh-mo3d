@@ -2,7 +2,6 @@ import './App.css'
 import Navbarh from './Components/Navigation/Nav'
 import Home from './Components/Home/Home'
 import Team from './Components/Team/Team'
-import About from './Components/Home/About'
 import Footer from './Components/Home/Footer'
 import ModelViewer from './Components/Home/Model'
 import './assets/css/animate.min.css'
@@ -39,7 +38,6 @@ function App() {
         <Routes> 
                  <Route path="/" element={<Home/>}/>
                   <Route path="/team" element={<Team/>}/>
-                  <Route path="/about" element={<About/>}/>
                   <Route path="/model" element={<ModelViewer/>}/>
                  </Routes>
                  <Footer/>

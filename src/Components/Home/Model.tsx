@@ -6,7 +6,6 @@ const ModelViewer = () => {
     <div className="flex-column align-items-center mx-5 ">
       
       <h1 className="model_taital pt-2">Models</h1>
-      <p className="text-center model-desc">Working on health technologies, Rhimo 3D team works to develop different solutions for 3D modeling in the health sector. The aim of the young and dynamic team consisting of full stack developers is to provide serial software support at low prices to hospitals and clinics around the world and to offer new technological solutions to the world by conducting R&D studies.</p>
       
       <div className="row justify-content-center">
         
