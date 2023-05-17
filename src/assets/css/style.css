@@ -732,7 +732,7 @@ justify-content: center;
      text-align: center;
      font-weight: bold;
      font-size: 46px;
-     margin-bottom: 90px;
+     padding-bottom: 10px;
 }
 
 .model_taital::after {
@@ -742,9 +742,17 @@ justify-content: center;
      position: absolute;
      width: 120px;
      text-align: center;
-     right: 45%;
-     top: 55px;
-}
+     right: 50%;
+     transform: translateX(50%);
+     bottom: -10px;
+   }
+   
+   @media (max-width: 576px) {
+     .model_taital::after {
+       top: 55px;
+       bottom: unset;
+     }
+   }
 
 .contact_section_2{
      width: 100%;

@@ -34,7 +34,7 @@ const Navbarh = () => {
                   </div>
             </div>
                 
-            <div className="call_text">
+            <div className="call_text d-none d-sm-block">
               <a href="#">
                 <img alt="mail" src={mail}/>
                 <span className="call_text_left">
