@@ -1,7 +1,9 @@
 import './App.css'
-import Nav from './Components/Navigation/Nav'
+import Navbarh from './Components/Navigation/Nav'
 import Home from './Components/Home/Home'
-//write import for all the css files in the assets/css folder
+import Team from './Components/Team/Team'
+import Footer from './Components/Home/Footer'
+import ModelViewer from './Components/Home/Model'
 import './assets/css/animate.min.css'
 import './assets/css/bootstrap.min.css'
 import './assets/css/bootstrap-grid.css'
@@ -30,11 +32,15 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom'
 function App() {
   return (
     <>
-      <Nav/>
+      
       <BrowserRouter>
+      <Navbarh/>
         <Routes> 
                  <Route path="/" element={<Home/>}/>
+                  <Route path="/team" element={<Team/>}/>
+                  <Route path="/model" element={<ModelViewer/>}/>
                  </Routes>
+                 <Footer/>
       </BrowserRouter>
     </>
   )
